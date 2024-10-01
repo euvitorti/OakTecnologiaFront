@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #1a1a1a; /* Cor de fundo escura */
+  font-family: Arial, sans-serif; /* Fonte da página */
+}
+
+.login-container {
+  display: flex;
+  background-color: #2d2d2d; /* Cor de fundo do container */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
+  width: 1000px; /* Largura do container */
+  height: 600px; /* Altura do container */
+  overflow: hidden; /* Evita que conteúdo excedente transborde */
+}
+
+.welcome-message {
+  flex: 1; /* Permite que essa seção ocupe espaço */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  padding: 48px; /* Espaçamento interno */
+  border-right: 1px solid #4f4f4f; /* Borda à direita */
+}
+
+.welcome-message h2 {
+  color: #ffffff; /* Cor do título */
+  margin-bottom: 24px; /* Espaçamento abaixo do título */
+  font-size: 36px; /* Tamanho da fonte do título */
+}
+
+.welcome-message p {
+  color: #ffffff; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  font-size: 18px; /* Tamanho da fonte do texto */
+}
+
+.login-form {
+  flex: 1; /* Permite que essa seção ocupe espaço */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  padding: 48px; /* Espaçamento interno */
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 12px; /* Espaçamento abaixo do rótulo */
+  color: #ffffff; /* Cor do rótulo */
+  font-size: 16px; /* Tamanho da fonte do rótulo */
+}
+
+.login-form input {
+  width: 100%; /* Largura total */
+  padding: 16px; /* Espaçamento interno */
+  border: 1px solid #4f4f4f; /* Borda dos campos */
+  border-radius: 4px; /* Bordas arredondadas */
+  box-sizing: border-box; /* Inclui bordas e preenchimento na largura */
+  margin-bottom: 24px; /* Espaçamento abaixo do campo */
+  background-color: #3f3f3f; /* Cor de fundo dos campos */
+  color: #ffffff; /* Cor do texto dos campos */
+  font-size: 16px; /* Tamanho da fonte dos campos */
+}
+
+.login-form button {
+  background-color: #4CAF50; /* Cor verde do botão */
+  color: white; /* Cor do texto do botão */
+  padding: 16px 32px; /* Espaçamento interno do botão */
+  border: none; /* Sem borda */
+  border-radius: 4px; /* Bordas arredondadas */
+  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+  width: 100%; /* Largura total do botão */
+  font-size: 16px; /* Tamanho da fonte do botão */
+  transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.login-form button:hover {
+  background-color: #45a049; /* Cor verde mais escura ao passar o mouse */
+}
