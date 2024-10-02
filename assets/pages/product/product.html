@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Produto</title>
     <link rel="stylesheet" href="../../style/product/style.css">
 </head>
-
 <body>
 
     <header>
@@ -17,26 +15,23 @@
     <main>
         <section>
             <div class="container">
-                <form action="/submit" method="POST">
+                <form>
                     <!-- Nome do Produto -->
                     <div class="form-group">
                         <label for="productName">Nome do Produto:</label>
-                        <input type="text" id="productName" name="productName" placeholder="Digite o nome do produto"
-                            required>
+                        <input type="text" id="productName" name="productName" placeholder="Digite o nome do produto" required>
                     </div>
 
                     <!-- Descrição do Produto -->
                     <div class="form-group">
                         <label for="productDescription">Descrição do Produto:</label>
-                        <textarea id="productDescription" name="productDescription" rows="4"
-                            placeholder="Digite a descrição do produto" required></textarea>
+                        <textarea id="productDescription" name="productDescription" rows="4" placeholder="Digite a descrição do produto" required></textarea>
                     </div>
 
                     <!-- Preço do Produto -->
                     <div class="form-group">
                         <label for="productPrice">Preço do Produto (R$):</label>
-                        <input type="number" id="productPrice" name="productPrice" step="0.01" min="0"
-                            placeholder="Digite o preço do produto" required>
+                        <input type="number" id="productPrice" name="productPrice" step="0.01" min="0" placeholder="Digite o preço do produto" required>
                     </div>
 
                     <!-- Disponível para Venda -->
@@ -80,5 +75,4 @@
 
     <script src="../../script/product/product.js"></script>
 </body>
-
 </html>
