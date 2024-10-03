@@ -16,8 +16,6 @@ Este é o frontend da aplicação de cadastro e listagem de produtos. Ele foi de
 - Após o cadastro de um novo produto, a listagem deve ser exibida automaticamente
 - Um botão para cadastrar novos produtos deve estar disponível na página de listagem
 
-## Configuração do Projeto
-
 ## Executando o Frontend
 - Clone este repositório e abra o projeto em seu editor de código preferido.
 - Certifique-se de que o backend da aplicação (https://github.com/euvitorti/OakTecnologiaDesafio) esteja rodando.
