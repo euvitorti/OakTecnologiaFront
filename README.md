@@ -33,3 +33,15 @@ Este é o frontend da aplicação de cadastro e listagem de produtos. Ele foi de
 - Cadastro de Produtos: A aplicação possui um formulário para cadastrar novos produtos com nome, descrição, valor e disponibilidade para venda.
 - Listagem de Produtos: Exibe todos os produtos cadastrados, ordenados pelo valor do menor para o maior.
 - Integração com o Backend: A aplicação consome a API REST desenvolvida em Java para realizar o cadastro e a listagem de produtos.
+
+## Exemplo de Uso
+
+Aqui estão algumas imagens das telas do front-end:
+
+1. Tela de login:
+
+   <img src="img/signin.png" alt="Tela de cadastrar usuário" width="500" />
+
+2. Tela de troca de mensagens:
+
+   <img src="img/cadastro.png" alt="Tela de cadastrar produto" width="500" />
