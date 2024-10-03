@@ -42,6 +42,6 @@ Aqui estão algumas imagens das telas do front-end:
 
    <img src="img/signin.png" alt="Tela de cadastrar usuário" width="500" />
 
-2. Tela de troca de mensagens:
+2. Tela de cadastro de produto:
 
    <img src="img/cadastro.png" alt="Tela de cadastrar produto" width="500" />
