@@ -4,82 +4,101 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #1a1a1a; /* Cor de fundo escura */
-  font-family: Arial, sans-serif; /* Fonte da página */
+  background-color: #1a1a1a;
+  font-family: Arial, sans-serif;
 }
 
 .login-container {
   display: flex;
-  background-color: #2d2d2d; /* Cor de fundo do container */
-  border-radius: 8px; /* Bordas arredondadas */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra mais pronunciada */
-  width: 1000px; /* Largura do container */
-  height: 600px; /* Altura do container */
-  overflow: hidden; /* Evita que conteúdo excedente transborde */
+  background-color: #2d2d2d;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  width: 1000px;
+  height: 600px;
+  overflow: hidden;
 }
 
 .welcome-message {
-  flex: 1; /* Permite que essa seção ocupe espaço */
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centraliza verticalmente */
-  align-items: center; /* Centraliza horizontalmente */
-  padding: 48px; /* Espaçamento interno */
-  border-right: 1px solid #4f4f4f; /* Borda à direita */
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
+  border-right: 1px solid #4f4f4f;
 }
 
 .welcome-message h2 {
-  color: #ffffff; /* Cor do título */
-  margin-bottom: 24px; /* Espaçamento abaixo do título */
-  font-size: 36px; /* Tamanho da fonte do título */
+  color: #ffffff;
+  margin-bottom: 24px;
+  font-size: 36px;
 }
 
 .welcome-message p {
-  color: #ffffff; /* Cor do texto */
-  text-align: center; /* Centraliza o texto */
-  font-size: 18px; /* Tamanho da fonte do texto */
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
 }
 
 .login-form {
-  flex: 1; /* Permite que essa seção ocupe espaço */
+  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Centraliza verticalmente */
-  align-items: center; /* Centraliza horizontalmente */
-  padding: 48px; /* Espaçamento interno */
+  justify-content: center;
+  align-items: center;
+  padding: 48px;
 }
 
 .login-form label {
   display: block;
-  margin-bottom: 12px; /* Espaçamento abaixo do rótulo */
-  color: #ffffff; /* Cor do rótulo */
-  font-size: 16px; /* Tamanho da fonte do rótulo */
+  margin-bottom: 12px;
+  color: #ffffff;
+  font-size: 16px;
 }
 
 .login-form input {
-  width: 100%; /* Largura total */
-  padding: 16px; /* Espaçamento interno */
-  border: 1px solid #4f4f4f; /* Borda dos campos */
-  border-radius: 4px; /* Bordas arredondadas */
-  box-sizing: border-box; /* Inclui bordas e preenchimento na largura */
-  margin-bottom: 24px; /* Espaçamento abaixo do campo */
-  background-color: #3f3f3f; /* Cor de fundo dos campos */
-  color: #ffffff; /* Cor do texto dos campos */
-  font-size: 16px; /* Tamanho da fonte dos campos */
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 24px;
+  background-color: #3f3f3f;
+  color: #ffffff;
+  font-size: 16px;
 }
 
 .login-form button {
-  background-color: #4CAF50; /* Cor verde do botão */
-  color: white; /* Cor do texto do botão */
-  padding: 16px 32px; /* Espaçamento interno do botão */
-  border: none; /* Sem borda */
-  border-radius: 4px; /* Bordas arredondadas */
-  cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
-  width: 100%; /* Largura total do botão */
-  font-size: 16px; /* Tamanho da fonte do botão */
-  transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  transition: background-color 0.3s;
 }
 
 .login-form button:hover {
-  background-color: #45a049; /* Cor verde mais escura ao passar o mouse */
+  background-color: #45a049;
+}
+
+.signup-link {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.signup-link a {
+  color: #4CAF50;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+  color: #45a049;
+  text-decoration: underline;
 }

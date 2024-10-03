@@ -1,110 +1,99 @@
-/* Reset básico para margens e preenchimento */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+  font-family: Arial, sans-serif;
 }
 
-/* Estilo do cabeçalho */
 header {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1.5rem;
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
 }
 
-/* Estilo do main */
 main {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 1rem;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-/* Estilo das seções */
 section {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
-/* Estilo do formulário */
 form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-group {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 label {
-    font-weight: bold;
-    margin-bottom: 0.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 input[type="text"],
 input[type="number"],
 textarea {
-    padding: 0.5rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
 }
 
 input[type="checkbox"] {
-    margin-right: 0.5rem;
+  margin-right: 0.5rem;
 }
 
-/* Estilo do botão */
 button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 0.75rem;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #45a049;
+  background-color: #45a049;
 }
 
-/* Estilo da tabela */
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 1rem;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
 }
 
 th,
 td {
-    padding: 0.75rem;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
 th {
-    background-color: #4CAF50;
-    color: white;
+  background-color: #4caf50;
+  color: white;
 }
 
 tr:hover {
-    background-color: #f1f1f1; /* Efeito hover nas linhas da tabela */
+  background-color: #f1f1f1;
 }
 
-/* Estilo do rodapé */
 footer {
-    text-align: center;
-    margin-top: 2rem;
-    padding: 1rem;
-    background-color: #4CAF50;
-    color: white;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #4caf50;
+  color: white;
 }
